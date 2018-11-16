@@ -1,0 +1,15 @@
+.button{
+margin: 60px;
+padding: 30px;
+width: 200px;
+height:  80px;
+margin: 20px;
+}
+#main {
+
+background-color: cornflowerblue;
+margin-left: 30%;
+margin-right: 30%;
+margin-top: 5%;
+padding:5%;
+}
