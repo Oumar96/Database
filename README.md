@@ -1,4 +1,5 @@
 # Database
+# NEVER EVER COMMIT ON MASTER !!!
  <a href="https://docs.google.com/document/d/19ljs49Jzi9TyIq-qtiT7BA63GzZqquydstEdBrUAPys/edit?ts=5bedc4d4">Google Drive File</a> 
 
 STEP 1: Add the PHP files to /nfs/www/groups/h/hec353_2
