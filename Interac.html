@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <center>
+            <h1 id="header">Interac Transfer</h1>
+        </center>
+        <link rel="stylesheet" href="Interac_style.css">
+        <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+        <script type="text/javascript" src="scriptInterac.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <div id="workspace">
+                <form class="myForm" action="Interac.html">
+                        <br>
+                        <p id="accountTypeText">Account Type: </p>
+                        <select class ="accountType" name="accountType" rows="1" cols="10">
+                            <option value="volvo">Checking</option>
+                            <option value="saab">Savings</option>
+                        </select>
+                        <br>
+                        <br>
+                        <p id="amountText">Amount: </p>
+                        <input type="number" class="amount" name="amount">
+                        <br>
+                        <p>How would you like to notify the recipient?</p>
+                        <div id="divChoiceEmail">
+                            <input type="radio" class="choiceEmailPhone" id="choiceEmail" name="transferType" value="email">E-mail
+                        </div>
+                        <div id="divChoicePhone">
+                            <input type="radio" class="choiceEmailPhone" id="choicePhone" name="transferType" value="cellphone">Cellphone
+                        </div>
+                        <br>
+                        <p id="email">Email: </p>
+                        <input type="text" class="email" name="email">
+                        <br>
+                        <br>
+                        <p id="cellphone">Cellphone: </p>
+                        <input type="number" class="cellphone" name="cellphone" >
+                        <br>
+                        <br>
+                        <input type="submit">
+                        </form>
+            </div>      
+        </center>
+        
+        
+    </body>
+</html>
