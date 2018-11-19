@@ -1,0 +1,58 @@
+html{
+    background: bisque;
+}
+
+#header{
+    color: cadetblue;
+    font-family: sans-serif;
+}
+
+#workspace{
+    background: aliceblue;
+    width: 500px;
+    height: 600px;
+}
+
+#accountTypeText{
+    width: 200px;
+    background: #dadbc578;
+    height: 40px;
+    font-family: sans-serif;
+}
+
+.accountType{
+    width: 202px;
+    margin-left: 6px;
+}
+
+#amountText{
+    width: 200px;
+    background: #dadbc578;
+    height: 40px;
+    font-family: sans-serif;
+}
+
+.amount{
+    width: 202px;
+    margin-left: 6px;
+}
+
+#divChoiceEmail{
+    width: 150px;
+    position: relative;
+    right: 0.9%;
+}
+
+#email{
+    width: 200px;
+    background: #dadbc578;
+    height: 40px;
+    font-family: sans-serif;
+}
+
+#cellphone{
+    width: 200px;
+    background: #dadbc578;
+    height: 40px;
+    font-family: sans-serif;
+}
