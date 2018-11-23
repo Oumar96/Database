@@ -1,46 +1,100 @@
 <!DOCTYPE html>
 <html>
-<title>Welcome</title>
-<head>
-<script>
-function RedirectLogout() {
-    location.replace("https://hec353.encs.concordia.ca/LogoutSuccess.php")
-}
-function RedirectAccounts() {
-    location.replace("https://hec353.encs.concordia.ca/Accounts.php")
-}
-function RedirectTransfer() {
-    location.replace("https://hec353.encs.concordia.ca/Transfer.php")
-}
-function RedirectBills() {
-    location.replace("https://hec353.encs.concordia.ca/Bills.php")
-}
-function RedirectInterac() {
-    location.replace("https://hec353.encs.concordia.ca/Interac.php")
-}
-</script>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <center>
-    <h1>Welcome to Bank of Comp353</h1>
+    <head>    
+        <link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+        <meta charset="utf-8">
+        <!------ Include the above in your HEAD tag ---------->
+    </head>
+    <body>
+        <center>
+            <form class="form-horizontal">
+                <fieldset>
+            
+                <!-- Form Name -->
+                <legend>Account Info</legend>
         
-    <div id="main">
-        <div id="Row1">
-            <button class="button" onclick="RedirectAccounts()"> Accounts </button>    
-            <button class="button" onclick="RedirectTransfer()"> Transfer Money </button>    
-        </div>
-        <div name="Row2">
-            <button class="button" onclick="RedirectBills()"> Pay Bills </button>
-            <button class="button" onclick="RedirectInterac()"> Interac </button>    
-        </div>
-    </div>    
         
-    <div name="Footer">
-    
-        <button class="button" onclick="RedirectLogout()"> Logout </button>    
-    
-    </div>
-    </center>
-</body>
+                <!-- Select Basic -->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="Account">Choose Account</label>
+                <div class="col-md-5">
+                    <select id="Account" name="Account" class="form-control">
+                    <option value="1">Bank Account</option>
+                    <option value="2">Credit Card</option>
+                    <option value="">Loans</option>
+                    <option value="">Savings</option>
+                    <option value="">Term Deposits</option>
+                    </select>
+                </div>
+                </div>
+        
+        
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="AccountNumber">Account Number:</label>  
+                <div class="col-md-5">
+                <text id="AccountNumber" name="AccountNumber" type="text" placeholder="" class="form-control input-md">Empty</text>
+                    
+                </div>
+                </div>
+        
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="AccountType">Account Type:</label>  
+                <div class="col-md-5">
+                <text id="AccountType" name="Account Type" type="text" placeholder="" class="form-control input-md">Empty</text>
+                    
+                </div>
+                </div>
+        
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="Balance">Balance:</label>  
+                <div class="col-md-5">
+                <text id="Balance" name="Balance" type="text" placeholder="" class="form-control input-md">Empty</text>
+                    
+                </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="planOption">planOption:</label>  
+                    <div class="col-md-5">
+                        <text id="planOption" name="planOption" type="text" placeholder="" class="form-control input-md">Empty</text>          
+                    </div>
+                </div>
+        
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="AccountFee">Monthly Account Fee:</label>  
+                <div class="col-md-5">
+                <text id="AccountFee" name="AccountFee" type="text" placeholder="$5" class="form-control input-md"></text>
+                    
+                </div>
+                </div>
+        
+                <!-- Text input-->
+                <div class="form-group">
+                <label class="col-md-4 control-label" for="InterestRate">Interest Rate:</label>  
+                <div class="col-md-5">
+                <text id="InterestRate" name="InterestRate" type="text" placeholder="4.00%" class="form-control input-md"></text>
+                    
+                </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="planOption">planOption:</label>  
+                    <div class="col-md-5">
+                        <text id="planOption" name="planOption" type="text" placeholder="" class="form-control input-md">Empty</text>          
+                    </div>
+                </div>
+                
+                </fieldset>
+                </form>
+        </center>
+            
+    </body>
 </html>
